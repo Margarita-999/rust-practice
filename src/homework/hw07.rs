@@ -11,6 +11,7 @@ fn invert_the_case(s: String) -> String {
         })
         .collect()
 }
+
 #[test]
 fn test_invert_the_case() {
     let data =

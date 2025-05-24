@@ -23,7 +23,6 @@ fn test() {
         ((37, 11), 1),
         ((120, 90), 30),
     ];
-
     for ((a, b), exp) in data.iter() {
         assert_eq!(*exp, gcd(*a, *b));
     }
